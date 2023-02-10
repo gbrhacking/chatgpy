@@ -37,7 +37,7 @@
           <h2>
             <h3>
             </svg>
-            <a href="https://www.instagram.com/eudegabriell"><h4> Desenvolvido Por @eudegabriell</h4></a>
+            <a href="#" class="btn-pisca"><i class="icon icon-download-2"></i><a class="btn-pisca" href="https://www.instagram.com/eudegabriell" target="_blank">Desenvolvido Por @eudegabriell</h2></a></p>
           </h2>
                <style>
 /*Link não visitado */
@@ -45,6 +45,25 @@ a:link {
   color: green;
   text-decoration: none;
 }
+
+ @keyframes btn-pisca {
+     0% { opacity: 0; }
+     50% { opacity: 0.5; }
+     100% { opacity: 1; }
+ }
+.btn-pisca {
+   color:#fff;
+   padding: 0.6em 0.8em;
+   display: inline-block;
+   text-decoration: none;
+   border-radius: 4px; 
+   -webkit-animation: btn-pisca .9s linear infinite;
+   -moz-animation: btn-pisca .9s linear infinite;
+   -ms-animation: btn-pisca .9s linear infinite;
+   -o-animation: btn-pisca .9s linear infinite;
+   animation: btn-pisca .9s linear infinite;
+}
+
 </style>
         </div>
       </div>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chat GBR</title>
+  <meta name="description"
+    content="O Chat GBR é um modelo de processamento de linguagem natural (NLP) que usa aprendizado profundo para gerar conversas semelhantes às humanas. Ele é treinado em grandes conjuntos de dados de conversação e pode ser usado para gerar respostas à entrada do usuário em tempo real. O Chat GBR pode ser usado para uma variedade de aplicações, como chatbots de atendimento ao cliente, assistentes virtuais e suporte automatizado ao cliente.">
+  <meta name="keywords" content="chat gpy, chat gpt, ai chat, chatbot">
+  <meta name="author" content="Eude Gabriel" />
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <div id="app">
+    <div class="hero">
+      <h1>Chat GBR</h1>
+      <div class="col-2">
+        <div class="card">
+          <h2>
+            <h2>
+              <h2>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-lightning-charge-fill" viewBox="0 0 16 16">
+              <path
+                d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z" />
+            </svg>
+            Capacidades
+          </h2>
+          <span>Lembra o que o usuário disse no início da conversa</span>
+          <span>Permite que o usuário forneça correções de acompanhamento</span>
+          <span>Treinado para recusar solicitações inadequadas</span>
+        </div>
+        <div class="card">
+          <h2>
+            <h3>
+            </svg>
+            <a href="https://www.instagram.com/eudegabriell" target="_blank" href="#" class="btn-pisca">Desenvolvido Por @eudegabriell</h2></a>
+            <i class="icon icon-download-2"></i>
+          </h2>
+               <style>
+/*Link não visitado */
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+ @keyframes btn-pisca {
+     0% { opacity: 0; }
+     50% { opacity: 0.5; }
+     100% { opacity: 1; }
+ }
+.btn-pisca {
+   color:#fff;
+   padding: 0.6em 0.8em;
+   display: inline-block;
+   text-decoration: none;
+   border-radius: 4px; 
+   -webkit-animation: btn-pisca .9s linear infinite;
+   -moz-animation: btn-pisca .9s linear infinite;
+   -ms-animation: btn-pisca .9s linear infinite;
+   -o-animation: btn-pisca .9s linear infinite;
+   animation: btn-pisca .9s linear infinite;
+}
+
+</style>
+        </div>
+      </div>
+    </div>
+    <div id="chat_container"></div>
+    <form>
+      <textarea name="prompt" placeholder="Pergunte ao GBR" id="form_fill"></textarea>
+      <button type="submit"><img src="assets/images/send.svg" alt="send"></button>
+    </form>
+  </div>
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+
+</html>
